@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    padding: 15px 0px;
+}
+
+header nav ul {
+    display: flex;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    margin: 0px 15px;
+}
+
+header nav ul li a {
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 1);
+}
+
+header nav ul li a:hover {
+    color: rgba(103, 186, 48, 1);
+}
+
+header nav button {
+    padding: 12px 24px;
+    border: none;
+    background: linear-gradient(180deg, #67BA30 0.61%, #458E15 99.56%);
+    box-shadow: 0px 3px 4px rgba(63, 123, 23, 0.224);
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+header nav button i {
+    padding-right: 10px;
+}
+
+header .headerTitle {
+    width: 100%;
+    background: url(./img/expert-comptable-Enghien-les-Bains-Val-d-Oise-95-ile-de-france-visuel-profession-liberale\ 2.png);
+    padding-top: 125px;
+    padding-bottom: 135px;
+}
+
+header .headerTitle h1 {
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 47px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 5px;
+}
+
+header .headerTitle p:first-of-type {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 27px;
+    color: rgba(77, 77, 77, 1);
+    margin-bottom: 15px;
+}
+
+header .headerTitle form {
+    margin-bottom: 22px;
+}
+
+header .headerTitle form input {
+    border: 1px solid rgba(103, 186, 48, 1);
+    padding: 20px 0px;
+    padding-left: 30px;
+    width: 60%;
+    outline: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+header .headerTitle form button {
+    padding: 19px 25px;
+    border: none;
+    margin-left: -5px;
+    background: linear-gradient(180deg, #67BA30 0.61%, #458E15 99.56%);
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+header .headerTitle form button i {
+    padding-right: 10px;
+}
+
+header .headerTitle a {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 26px;
+    color: rgba(94, 94, 94, 1);
+}
+
+header .headerTitle a span {
+    font-weight: 400;
+    margin-left: 5px;
+    text-decoration: underline !important;
+}
+
+header .headerTitle p:last-of-type {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    color: rgba(94, 94, 94, 1);
+    margin-top: 30px;
+}
+
+header .headerTitle p:last-of-type span {
+    font-weight: 700;
+}
+
